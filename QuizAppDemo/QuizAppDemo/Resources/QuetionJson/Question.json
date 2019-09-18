@@ -1,0 +1,64 @@
+[
+  {
+    "question": "What is 9*9",
+    "correctAns": 2,
+    "options": [
+      "80",
+      "79",
+      "81",
+      "82"
+    ],
+    "answered": 0,
+    "isAttempt": 0
+  },
+  {
+    "question": "What is 52/2",
+    "correctAns": 0,
+    "options": [
+      "26",
+      "24",
+      "104",
+      "28"
+    ],
+    "answered": 0,
+    "isAttempt": 0
+  },
+  {
+    "question": "Karnataka is ?",
+    "correctAns": 3,
+    "options": [
+      "City",
+      "Country",
+      "District",
+      "State"
+    ],
+    "answered": 0,
+    "isAttempt": 0
+
+  },
+  {
+    "question": "What is the state of Bengaluru?",
+    "correctAns": 1,
+    "options": [
+      "Kerala",
+      "Karnataka",
+      "Tamilnadu",
+      "Andhrapradesh"
+    ],
+    "answered": 0,
+    "isAttempt": 0
+
+  },
+  {
+    "question": "Answer for 6+2",
+    "correctAns": 0,
+    "options": [
+      "8",
+      "6",
+      "7",
+      "9"
+    ],
+    "answered": 0,
+    "isAttempt": 0
+  }
+]
