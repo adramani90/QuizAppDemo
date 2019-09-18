@@ -121,13 +121,12 @@ extension UIColor {
     
     /// Struct of Custom color that is used in application.
     struct AppColor {
-        static let colorBlue = #colorLiteral(red: 0.1803921569, green: 0.5254901961, blue: 0.7568627451, alpha: 1)
         static let colorThemeDark = #colorLiteral(red: 0.7960784314, green: 0.262745098, blue: 0.2078431373, alpha: 1)
         static let colorLightTheme = #colorLiteral(red: 0.9960784314, green: 0.3176470588, blue: 0.3882352941, alpha: 1)
         static let colorRed = #colorLiteral(red: 1, green: 0, blue: 0, alpha: 1)
         static let colorGreen = #colorLiteral(red: 0, green: 0.5019607843, blue: 0, alpha: 1)
         static let colorBlack = #colorLiteral(red: 0, green: 0, blue: 0, alpha: 1)
-        static let colorYellow = #colorLiteral(red: 1, green: 1, blue: 0, alpha: 1)
+        static let colorBlue = #colorLiteral(red: 0.3647058904, green: 0.06666667014, blue: 0.9686274529, alpha: 1)
         static let colorThemeLight = #colorLiteral(red: 0.7960784314, green: 0.262745098, blue: 0.2078431373, alpha: 0.4)
 
     }

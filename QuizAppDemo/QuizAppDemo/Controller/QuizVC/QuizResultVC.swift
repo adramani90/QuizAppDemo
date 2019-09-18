@@ -62,13 +62,14 @@ extension QuizResultVC:UITableViewDelegate,UITableViewDataSource{
         cell.lblQuetions.text = data.question
         cell.lblGivenAnswer.text = TXT_YOURANS + ((data.isAttempt == 1) ? String(data.options[data.answered]) : TXT_TOTALNON_ATTEMPTED)
         if data.isAttempt == 0{
-            cell.lblGivenAnswer.textColor =  UIColor.AppColor.colorYellow
+            cell.lblGivenAnswer.textColor =  UIColor.AppColor.colorBlue
         }else if (data.isAttempt == 1 && data.answered == data.correctAns){
             cell.lblGivenAnswer.textColor =  UIColor.AppColor.colorGreen
         } else {
             cell.lblGivenAnswer.textColor =  UIColor.AppColor.colorRed
         }
-        
+        cell.backgroundColor = UIColor.white
+        cell.contentView.backgroundColor = UIColor.white
         cell.lblCorrectAnswer.text = TXT_CORRECTANS + String(data.options[data.correctAns])
         cell.lblCorrectAnswer.textColor = UIColor.AppColor.colorGreen
 
@@ -93,7 +94,7 @@ extension QuizResultVC:UITableViewDelegate,UITableViewDataSource{
         cell.lblInCorrectAnswer.text = TXT_INCORRECT + String(inCorrect)
 
         cell.lblTotalQuetions.textColor = UIColor.AppColor.colorBlack
-        cell.lblNonAttemtedQuetions.textColor = UIColor.AppColor.colorYellow
+        cell.lblNonAttemtedQuetions.textColor = UIColor.AppColor.colorBlue
         cell.lblCorrectAnswer.textColor = UIColor.AppColor.colorGreen
         cell.lblInCorrectAnswer.textColor = UIColor.AppColor.colorRed
         cell.backgroundColor = UIColor.AppColor.colorThemeLight
